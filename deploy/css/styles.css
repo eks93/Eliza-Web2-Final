@@ -29,3 +29,35 @@ ul li a {
   background-position: center;
   min-height: 584px;
 }
+
+/* =============
+    Footer
+============= */
+.container {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.designer {
+  display: grid;
+  grid-template-areas: "image bio" "name name";
+  grid-template-columns: auto auto;
+}
+.designer .image {
+  grid-area: image;
+}
+.designer .bio {
+  color: #6A696C;
+  grid-area: bio;
+  padding-left: 64px;
+  margin: auto;
+}
+.designer .name {
+  grid-area: name;
+  color: #FB8134;
+  font-size: 32px;
+  line-height: 1;
+  margin-left: -20px;
+  margin-top: -60px;
+  text-transform: uppercase;
+}
