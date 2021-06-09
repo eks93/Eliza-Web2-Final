@@ -31,7 +31,7 @@ ul li a {
 }
 
 /* =============
-    Footer
+    Designers
 ============= */
 .container {
   margin: 0 auto;
@@ -60,4 +60,33 @@ ul li a {
   margin-left: -20px;
   margin-top: -60px;
   text-transform: uppercase;
+}
+
+/* =============
+    Lookbooks
+============= */
+/* =============
+    Showrooms
+============= */
+.container {
+  width: 90%;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.column {
+  display: grid;
+  grid-template-areas: "image" "info";
+}
+.column .image {
+  grid-area: image;
+  height: 216px;
+}
+.column .image #VienImage {
+  background-image: url("../img/showrooms/vien.png");
+  background-repeat: no-repeat;
+}
+.column .info {
+  grid-area: info;
+  color: #323233;
 }

@@ -1,0 +1,37 @@
+/* =============
+    Showrooms
+============= */
+
+
+.container {
+    width: 90%;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+    .column {
+        display: grid;
+        grid-template-areas: 
+        "image"
+         "info";
+        
+        
+
+       .image {
+           grid-area: image;
+           height: 216px;
+           
+           #VienImage {
+               background-image: url("../img/showrooms/vien.png");
+               background-repeat: no-repeat;
+           }
+       }
+
+       .info{
+           grid-area: info;
+           color: #323233;
+           
+       }
+
+
+    }
