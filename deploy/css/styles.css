@@ -94,6 +94,9 @@ ul li a {
 }
 
 .designer {
+  margin-top: 135px;
+  margin-left: 95px;
+  margin-bottom: 160px;
   display: grid;
   grid-template-areas: "image bio" "name name";
   grid-template-columns: auto auto;
@@ -104,8 +107,12 @@ ul li a {
 .designer .bio {
   color: #6A696C;
   grid-area: bio;
-  padding-left: 64px;
-  margin: auto;
+  padding-left: 30px;
+  padding-right: 130px;
+  padding-bottom: 40px;
+  padding-top: auto;
+  margin-bottom: 30px;
+  margin-top: auto;
   font-family: "Lato", sans-serif;
   font-weight: lighter;
 }
@@ -124,6 +131,28 @@ ul li a {
 h1 {
   font-size: 100px;
   font-family: "Poppins", sans-serif;
+  color: #323233;
+}
+
+.nav-list-container-wrapper {
+  padding-top: 155px;
+  padding-bottom: 135px;
+}
+
+.button {
+  text-align: right;
+  padding-right: 135px;
+  margin-top: -85px;
+  margin-bottom: auto;
+}
+
+.button-detail {
+  border: none;
+  text-decoration: underline;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  background: none;
   color: #323233;
 }
 
