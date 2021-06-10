@@ -160,7 +160,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   background: none;
-  color: #323233;
+  color: #6A696C;
 }
 
 /* =============
@@ -239,11 +239,48 @@ img {
   margin-bottom: 110px;
 }
 
+#four {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 110px;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#five {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+
+/* =============
+    Quote and Button
+============= */
+#quote {
+  display: grid;
+  height: 600px;
+  grid-template-columns: 600px;
+  color: #323233;
+}
+
+h3 {
+  margin-top: 70px;
+  margin-right: 50px;
+  font-size: 55px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
 .button {
   text-align: right;
   padding-right: 135px;
-  margin-top: -85px;
-  margin-bottom: auto;
+  margin-top: 0px;
+  margin-bottom: 185px;
 }
 
 .button-detail {
