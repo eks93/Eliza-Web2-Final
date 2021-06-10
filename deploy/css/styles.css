@@ -4,6 +4,9 @@
 /* =============
     Typography
 ============= */
+/* =============
+   Nav
+============= */
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +35,10 @@ ul li a {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   line-height: 48px;
-  font-weight: bold;
+  font-weight: bolder;
+  position: absolute;
+  text-align: left;
+  vertical-align: middle;
 }
 
 #hero-nav {
@@ -41,13 +47,49 @@ ul li a {
   background-size: cover;
   background-position: center center;
   min-height: 584px;
+  position: relative;
+}
+
+.hero-nav-list-rect {
+  height: 48px;
+  width: 100px;
+  background-color: #FB8134;
+}
+
+.nav-text {
+  float: right;
+  text-align: right;
+}
+
+.nav-text-rect {
+  float: right;
+  height: 100px;
+  width: 100px;
+  background-color: #323233;
+}
+
+.hero-nav-container {
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  grid-gap: 5px;
+}
+
+.nav-list-container {
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  grid-gap: 5px;
+  float: right;
+}
+
+.nav-list-container-wrapper {
+  width: 100%;
 }
 
 /* =============
     Designers
 ============= */
 .container {
-  margin: 0 auto;
+  margin: 155px;
   width: 65%;
 }
 
@@ -64,20 +106,63 @@ ul li a {
   grid-area: bio;
   padding-left: 64px;
   margin: auto;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
 }
 .designer .name {
   grid-area: name;
   color: #FB8134;
   font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
   line-height: 1;
-  margin-left: -20px;
-  margin-top: -60px;
+  margin-left: -30px;
+  margin-top: -20px;
   text-transform: uppercase;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+  color: #323233;
 }
 
 /* =============
     Lookbooks
 ============= */
+.lookbook-image-container {
+  max-height: 475px;
+  height: 100%;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.lookbook-image-scrollable {
+  overflow: hidden;
+  height: 470px;
+  width: 1344px;
+  max-height: 475px;
+}
+
+.lookbook-image {
+  float: left;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+  color: #323233;
+}
+
+/* =============
+    Italian Education Hub
+============= */
+h1 {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+  color: #323233;
+}
+
 /* =============
     Showrooms
 ============= */
@@ -93,7 +178,7 @@ ul li a {
 }
 .column .image {
   grid-area: image;
-  height: 216px;
+  height: 346px;
 }
 .column .image #VienImage {
   background-image: url("../img/showrooms/vien.png");
@@ -101,5 +186,20 @@ ul li a {
 }
 .column .info {
   grid-area: info;
+  color: #323233;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+  color: #323233;
+}
+
+/* =============
+    Updates
+============= */
+h1 {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
   color: #323233;
 }

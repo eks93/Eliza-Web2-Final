@@ -19,7 +19,7 @@
 
        .image {
            grid-area: image;
-           height: 216px;
+           height: 346px;
            
            #VienImage {
                background-image: url("../img/showrooms/vien.png");
@@ -33,5 +33,10 @@
            
        }
 
-
     }
+
+    h1 {
+        font-size: 100px;
+        font-family: 'Poppins', sans-serif;
+        color: #323233;
+      }
