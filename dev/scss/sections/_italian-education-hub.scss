@@ -3,10 +3,46 @@
 ============= */
 
 
-
 h1 {
     font-size: 100px;
     font-family: 'Poppins', sans-serif;
     color: #323233;
+
   }
 
+.video {
+    max-width: 90%;
+    min-width: 300px;
+    display: grid;
+    grid-template-rows: auto;
+    padding-right: 20px;
+    padding-left: auto;
+    align-content: right;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+#title {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    align-content: left;
+    color: #515151;
+    margin-right: 180px;
+    margin-right: auto;
+    text-align: left;
+}
+
+#text {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: #323233;
+    align-content: right;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 290px;
+    margin-top: 60px;
+    
+}

@@ -2,10 +2,39 @@
     Updates
 ============= */
 
-
+#updates {
+    margin-bottom: 150px;
+    margin-top: 0px;
+}
 
 h1 {
     font-size: 100px;
     font-family: 'Poppins', sans-serif;
     color: #323233;
   }
+
+#milan {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FB883F;
+    padding-left: 32px;
+    padding-right: auto;
+    margin-top: 50px;
+}
+
+.pic {
+    max-height: 100%;
+}
+
+.media {
+    background-image: url("../img/updates/instagram pictures.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    min-height: 500px;
+    min-width: 746px;
+    position: relative;
+
+    
+}

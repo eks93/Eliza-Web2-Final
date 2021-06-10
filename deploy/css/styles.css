@@ -11,6 +11,40 @@ img {
   max-width: 355px;
 }
 
+h6 {
+  float: right;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: bold;
+  color: #515151;
+  padding-top: 0px;
+  padding-right: 30px;
+}
+
+/* =============
+    Footer
+============= */
+footer {
+  margin-bottom: 215px;
+  margin-top: auto;
+}
+
+#bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  align-content: center;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FB883F;
+}
+
 /* =============
    Nav
 ============= */
@@ -210,6 +244,7 @@ img {
   font-size: 16px;
   font-weight: lighter;
   color: #6A696C;
+  padding-right: 130px;
 }
 
 #one {
@@ -265,15 +300,20 @@ img {
   height: 600px;
   grid-template-columns: 600px;
   color: #323233;
+  margin-right: auto;
+  margin-left: 430px;
 }
 
 h3 {
+  text-align: right;
+  padding: 40px;
   margin-top: 70px;
   margin-right: 50px;
   font-size: 55px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: white;
+  background-color: #323233;
 }
 
 .button {
@@ -302,43 +342,109 @@ h1 {
   color: #323233;
 }
 
+.video {
+  max-width: 90%;
+  min-width: 300px;
+  display: grid;
+  grid-template-rows: auto;
+  padding-right: 20px;
+  padding-left: auto;
+  align-content: right;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+#title {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  align-content: left;
+  color: #515151;
+  margin-right: 180px;
+  margin-right: auto;
+  text-align: left;
+}
+
+#text {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  color: #323233;
+  align-content: right;
+  text-align: right;
+  margin-right: 20px;
+  margin-left: 290px;
+  margin-top: 60px;
+}
+
 /* =============
     Showrooms
 ============= */
-.container {
-  width: 90%;
-  margin-left: 18px;
-  margin-right: 18px;
-}
-
-.column {
-  display: grid;
-  grid-template-areas: "image" "info";
-}
-.column .image {
-  grid-area: image;
-  height: 346px;
-}
-.column .image #VienImage {
-  background-image: url("../img/showrooms/vien.png");
-  background-repeat: no-repeat;
-}
-.column .info {
-  grid-area: info;
-  color: #323233;
-}
-
 h1 {
   font-size: 100px;
   font-family: "Poppins", sans-serif;
+  color: #323233;
+}
+
+.button {
+  text-align: right;
+  padding-right: 135px;
+  margin-top: -85px;
+  margin-bottom: auto;
+}
+
+.button-detail {
+  border: none;
+  text-decoration: underline;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  background: none;
+  color: #6A696C;
+}
+
+#details {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
   color: #323233;
 }
 
 /* =============
     Updates
 ============= */
+#updates {
+  margin-bottom: 150px;
+  margin-top: 0px;
+}
+
 h1 {
   font-size: 100px;
   font-family: "Poppins", sans-serif;
   color: #323233;
+}
+
+#milan {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #FB883F;
+  padding-left: 32px;
+  padding-right: auto;
+  margin-top: 50px;
+}
+
+.pic {
+  max-height: 100%;
+}
+
+.media {
+  background-image: url("../img/updates/instagram pictures.png");
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  min-height: 500px;
+  min-width: 746px;
+  position: relative;
 }

@@ -3,40 +3,36 @@
 ============= */
 
 
-.container {
-    width: 90%;
-    margin-left: 18px;
-    margin-right: 18px;
-}
 
-    .column {
-        display: grid;
-        grid-template-areas: 
-        "image"
-         "info";
-        
-        
 
-       .image {
-           grid-area: image;
-           height: 346px;
-           
-           #VienImage {
-               background-image: url("../img/showrooms/vien.png");
-               background-repeat: no-repeat;
-           }
-       }
-
-       .info{
-           grid-area: info;
-           color: #323233;
-           
-       }
-
-    }
 
     h1 {
         font-size: 100px;
         font-family: 'Poppins', sans-serif;
         color: #323233;
       }
+
+      .button {
+        text-align: right;
+        padding-right: 135px;
+        margin-top: -85px;
+        margin-bottom: auto;
+      }
+      
+      .button-detail {
+        border: none;
+        text-decoration: underline;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bolder;
+        background: none;
+        color: #6A696C;
+      }
+
+    #details {
+        font-family: 'Lato', sans-serif;
+        font-weight: lighter;
+        font-size: 16px;
+        color: #323233;
+        
+    }

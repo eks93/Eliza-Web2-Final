@@ -50,6 +50,7 @@ img {
     font-size: 16px;
     font-weight: lighter;
     color: #6A696C;
+    padding-right: 130px;
   }
 }
 
@@ -109,6 +110,8 @@ img {
   height: 600px;
   grid-template-columns: 600px;
   color: #323233;
+  margin-right: auto;
+  margin-left: 430px;
   
 
 
@@ -116,12 +119,15 @@ img {
 }
 
 h3 {
+  text-align: right;
+  padding: 40px;
   margin-top: 70px;
   margin-right: 50px;
   font-size: 55px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   color: white;
+  background-color: #323233;
 
 }
 
