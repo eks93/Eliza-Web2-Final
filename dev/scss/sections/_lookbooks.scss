@@ -2,46 +2,99 @@
     Lookbooks
 ============= */
 
+h1 {
+  font-size: 100px;
+  font-family: 'Poppins', sans-serif;
+  color: #323233;
+}
 
 .lookbook-image-container {
-    max-height: 475px;
-    height: 100%;
-    width: 100%; 
-    overflow-x: scroll; 
-  }
-   
-  .lookbook-image-scrollable {
-    overflow: hidden;
-    height: 470px;
-    width: 1344px;
-    max-height: 475px;
-  }
-   
-  .lookbook-image {
-    object-position: center;
-    
-  }
-  
-  h1 {
-    font-size: 100px;
-    font-family: 'Poppins', sans-serif;
-    color: #323233;
-  }
+  align-content: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
-  .button {
-    text-align: right;
-    padding-right: 135px;
-    margin-top: -85px;
-    margin-bottom: auto;
+.lookbook-image-scrollable {
+  max-height: 760px;
+  border: none;
+  display: flex;
+  overflow-x: auto;
+}
+
+.lookbook-image-scrollable::-webkit-scrollbar{
+  width: 0;
+}
+
+.lookbook-image-scrollable .lookbook-image {
+  min-width: 270px;
+  height: 755px;
+  line-height: 755px;
+  margin-right: -5px;
+  align-items: center;
+}
+
+
+/* =============
+    grid
+============= */
+
+
+img {
+  min-width: 380px;
+  max-width: 380px;
+}
+
+#grid {
+  p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #6A696C;
   }
-  
-  .button-detail {
-    border: none;
-    text-decoration: underline;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    background: none;
-    color: #323233;
-  }
-  
+}
+
+#one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 300px;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-bottom: 110px;
+}
+
+
+
+.button {
+  text-align: right;
+  padding-right: 135px;
+  margin-top: -85px;
+  margin-bottom: auto;
+}
+
+.button-detail {
+  border: none;
+  text-decoration: underline;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  background: none;
+  color: #323233;
+}
