@@ -183,6 +183,23 @@ h1 {
   color: #323233;
 }
 
+.button {
+  text-align: right;
+  padding-right: 135px;
+  margin-top: -85px;
+  margin-bottom: auto;
+}
+
+.button-detail {
+  border: none;
+  text-decoration: underline;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  background: none;
+  color: #323233;
+}
+
 /* =============
     Italian Education Hub
 ============= */
