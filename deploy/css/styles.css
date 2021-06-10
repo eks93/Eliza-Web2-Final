@@ -174,7 +174,7 @@ h1 {
 }
 
 .lookbook-image {
-  float: left;
+  object-position: center;
 }
 
 h1 {
